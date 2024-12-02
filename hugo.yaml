@@ -1,4 +1,15 @@
 baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: ja
+title: なにかのBlog
 theme: ["PaperMod"]
+defaultContentLanguage: ja
+hasCJKLanguage: true
+summaryLength: 100
+permalinks:
+  page:
+    posts: /articles/:year/:month/:slug/
+menu:
+ main:
+  - name: Tags
+    url: /tags/
+    weight : 30
